@@ -15,6 +15,10 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style: none;
+}
+
 #container {
 	background: #ede9cc;
 	margin: 0 auto;
@@ -53,7 +57,7 @@ a {
 #area-menu {
 	position: absolute;
 	background: url(../img/topo-imagem-lateral.png);
-	width: 450px;
+	width: 470px;
 	height: 250px;
 	top: 0;
 	right: 0;
@@ -86,4 +90,34 @@ a.reserva {
 		color: #fff5b0;
 		padding: 5px 10px;
 		float: right;
+}
+
+/* nav bar */
+
+#menu {
+	margin-top: 15px;
+}
+
+ul#navegacao {
+	float: left;
+
+}
+
+ul#navegacao a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover {
+	background: #fdf6be;
+}
+
+
+.depoimento {
+	width: 256px;
+	height: 164px;
+	float: right;
 }
