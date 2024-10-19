@@ -143,8 +143,53 @@ ul#navegacao a:hover {
 	width: 90%;
 }
 
+#area-lateral li a h3 {
+	color: #615b2d;
+	font-size: 1em;
+	padding: 5px 0;
+	background: url(../img/ornamento.png) no-repeat right center;
+}
+
+#area-lateral li a img {
+	width: 150px;
+	float: left;
+	margin-right: 8px;
+}
+
+#area-lateral li a p {
+	color: #000;
+	font-size: 0.8em;
+}
+
+#area-lateral li {
+	height: 6em;
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+}
+
+#area-lateral ul li:hover {
+	background: #f6f3d6;
+	cursor: pointer;
+}
+
 /* rodape */
 
 #rodape {
+	padding: 16px;
+	background: #fff url(../img/bg-rodape.png) repeat-x top;
 	clear: both;
+	color: #7b7640;
+}
+
+/* textos */
+
+h2 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 10px;
 }
